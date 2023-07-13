@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Condiciones</title>
+  </head>
+  <body>
+      <section class="container">
+        <h1>Puedes llevar hasta 10 stickers en total</h1>
+<div class="stickers">
+    <div class="image-sticker">
+        <img src="./assets/css/img/1.jpg" alt="" class="sticker">
+        <p>Stickers de gato_1</p>
+        <input type="number" name="css" placeholder="Ingresa una cantidad" min="0" id="gato1"
+        onkeypress="return (event.charCode !=8 && event.charCode ==0 || (event.charCode >= 48 && event.charCode <= 57))" >
+    </div>
+    <div class="image-sticker">
+        <img src="./assets/css/img/2.jpg" alt="" class="sticker">
+        <p>Stickers de gato_2</p>
+        <input type="number" name="js" placeholder="Ingresa una cantidad" min="0" id="gato2"
+        onkeypress="return (event.charCode !=8 && event.charCode ==0 || (event.charCode >= 48 && event.charCode <= 57))">
+    </div>               
+    <div class="image-sticker">
+        <img src="./assets/css/img/3.jpg" alt="" class="sticker">
+        <p>Stickers de gato_3</p>
+        <input type="number" name="react" placeholder="Ingresa una cantidad" min="0" id="gato3"
+        onkeypress="return (event.charCode !=8 && event.charCode ==0 || (event.charCode >= 48 && event.charCode <= 57))">
+    </div>               
+</div>
+        <p id="MuchaCantidad"><span id="cantidad"></span></p>
+        <button onclick="Suma()">Verificar</button>
+        <p >Problema #2</p>
+      </section>
+<script src="./assets/js/script.js"></script>
+  </body>
+</html>

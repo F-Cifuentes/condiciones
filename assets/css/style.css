@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.estilogato
+{
+border: 2px solid rgb(255, 0, 0);
+width: 350px;
+}
+
+.gato{
+    width: 350px;
+}
+
+
+ul{
+    display: flex;
+    list-style-type: none;
+    font-size: 1 rem;
+    gap: 2rem;
+}
+
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+    height:90vh;
+}
+
+.stickers{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.image-sticker{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+img{
+    width: 20rem;
+    height: 20rem;
+    border: 2px solid rgba(24, 2, 2, 0);
+    border-radius: 1rem;
+    
+}
